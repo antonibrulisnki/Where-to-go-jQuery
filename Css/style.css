@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 20vmin;
+    background: white;
+}
+
+#inMidleOfHeader {
+    width: 80vmin;
+    margin: auto;
+}
+
+#logo {
+    width: 20vmin;
+    height: 20vmin;
+    background: url("../Mini\ logo.jpg");
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 8vmin;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #2D66D3;
+    transform: translate(1vmin, -6vmin);
+}
+
+section {
+    background-color: whitesmoke;
+    padding-top: 1vmin;
+    border: 1px solid lightgray;
+}
+
+h3 {
+    font-size: 4vmin;
+    color: #1D448C;
+    margin: 1vmin;
+}
+
+textarea {
+    resize: none;
+    border-radius: 2px;
+    margin: 1vmin;
+    width: 46.5vw;
+    transform: translate( 1.5vw, 0);
+}
+
+#description {
+    height: 14.05vh;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #1D448C;
+    background-color: #2D66D3;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 2.5vmin;
+    width: 10vmin;
+    margin-left: 50%;
+    transform: translate( -50%, 0);
+}
+
+#add {
+    width: 30vmin;
+    background-color: #B7E603;
+    border: 2px solid #91B501;
+    text-shadow: 2px 2px #91B501;
+    font-size: 4vmin;
+    margin: 2.5vh 1vh 2.5vh 50%;
+}
+
+.addElement {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.addButtonDiv {
+    width: 100vw;
+}
+
+table {
+    margin: 1vmin;
+    width: calc(100vw - 2vmin);
+    background: whitesmoke;
+    border: lightgray;
+    color: #4d4d4d;
+}
+
+th {
+    color: #1D448C;
+}
+
+@media all and (max-width: 900px) {
+    .addElement {
+        width: 100%;
+        display: block;
+    }
+    #description {
+        width: 95vw;
+    }
+    textarea {
+        width: 95vw;
+    }
+    .button {
+        font-size: 1.5vmin;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .button {
+        font-size: 1vmin;
+    }
+}

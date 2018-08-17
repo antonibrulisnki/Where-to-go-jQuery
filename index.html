@@ -1,0 +1,64 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+    <meta charset="UTF-8">
+    <title>Where to go?</title>
+    <link rel="icon" href="favicon/favicon.ico" type="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="Css/animations.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="inMidleOfHeader">
+            <div id="logo"></div>
+            <h1>Where to go?</h1>
+        </div>
+    </header>
+    <section>
+        <div class="addElement">
+            <h3>Where would you like to go? </h3>
+            <div><textarea id="description" name="desciptrion" placeholder="The name and description of the place." maxlength=255></textarea></div>
+        </div>
+
+        <div class="addElement">
+            <h3>What are the co-ordinates? (decimal degrees)</h3>
+            <div>
+                <textarea id="northSouth" name="LongitudeNS" placeholder="Longitude North/South."></textarea>
+                <!-- <input class="button clicked" id="north" type="button" value="North">
+                <input class="button toclick" id="south" type="button" value="South"> -->
+            </div>
+            <div>
+                <textarea id="eastWest" name="LongitudeEW" placeholder="Longitude East/West."></textarea>
+                <!-- <input class="button clicked" id="east" type="button" value="East">
+                <input class="button toclick" id="west" type="button" value="West"> -->
+            </div>
+        </div>
+        <div class="addButtonDiv">
+            <input id="add" class="button" type="button" value="Add place +">
+        </div>
+    </section>
+    <article>
+        <h3>Here's your list of places to visit:</h3>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Degreess N/S</th>
+                <th>Degrees E/W</th>
+                <th colspan="2">Description of the place</th>
+            </tr>
+            <!-- <tr>
+                <td>1</td>
+                <td>3.1356</td>
+                <td>99.4</td>
+                <td>Łagiewniki - to piękne miejsce</td>
+                <td><input class="button" type="button" value="Delete"></td>
+            </tr> -->
+        </table>
+    </article>
+</body>
+
+</html>

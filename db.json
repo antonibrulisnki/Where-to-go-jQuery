@@ -1,0 +1,21 @@
+{
+    "places": [{
+            "id": "1",
+            "northSouth": "3.1356",
+            "eastWest": "99.4",
+            "name": "Łagiewniki - to piękne miejsce"
+        },
+        {
+            "id": "2",
+            "northSouth": "3.1356",
+            "eastWest": "99.4",
+            "name": "Łagiewniki - to piękne miejsce"
+        },
+        {
+            "id": "3",
+            "northSouth": "34",
+            "eastWest": "46",
+            "name": "Zamek na Wawelu"
+        }
+    ]
+}
